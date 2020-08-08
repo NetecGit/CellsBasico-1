@@ -1,0 +1,55 @@
+Práctica IV.14 GET HTTP
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.14:  mkdir practica14.
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main, 
+    autor, etc.
+
+5.	Ejecute: npm install lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente, ObtenerInformación.js.
+
+9.	Importe LitElement y html del módulo lit-element.
+
+10.	Cree una subclase de LitElement de nombre ObtenerInformacion.
+
+11.	Agregue una propiedad de tipo Array de nombre respuesta.
+
+12.	Inicialice la variable respuesta con un arreglo vacío.
+
+13.	Sobreescriba el método firstUpdated() con el siguiente contenido:
+
+        firstUpdated() {
+            fetch("https://reqres.in/api/users?page=2")
+                .then((res) => res.json())
+                .then((res) => {
+                    this.respuesta = res.results;
+                });
+        }
+
+
+14.	Sobrescriba el método render() con el siguiente código.
+
+        render() {
+            const { resultado } = this;
+            return html`
+            <ul>
+                ${resultado.map((ii) => html` <li>${ii.email}</li> `)}
+            </ul>
+            `;
+        }
+
+15.	Registre el nuevo elemento con cutomElements.define('bb-informacion',ObtenerInformacion).
+
+16.	Agregue el nuevo elemento al archivo index.html.
+
+17.	Visualice y pruebe la página.
+

@@ -1,0 +1,57 @@
+
+Práctica IV.7 Atributos & Propiedades
+
+1.	Cree un nuevo elemento Lit en el mismo proyecto de la práctica anterior.
+
+2.	Importe litElement y html del módulo lit-element.
+
+3.	Cree una subclase de LitElement de nombre PA.
+
+4.	Agregue lo siguiente:
+
+        +-------------+---------+-----------------------+
+        |  Nombre     |   Tipo  |     Valor             |
+        +-------------+---------+-----------------------+
+        | referencia  |	 String |    https://reqres.in/ |
+        +-------------+---------+-----------------------+
+        | mensaje	  |  String |	    "REQ|RES"       |
+        +-------------+---------+-----------------------+
+        | etiqueta	  |  String	|    ""                 |
+        +-------------+---------+-----------------------+
+        | flag	      | Boolean	|    true               |
+        +----------+--------+---------------------------+
+
+5.	El mensaje debe iniciarse como propiedad del elemento en el index.html.
+        <bb-pa mensaje="Valor del atributo mensaje, para iniciar la propiedad"></bb-pa>
+
+6.	Responda lo siguiente: ¿Cuál es la diferencia entre atributo y propiedades?
+
+7.	Renderice el siguiente código TemplateResult es el siguiente:
+ 
+        <a href=${this.referencia}>
+            ${this.etiqueta}
+        </a>
+        <input type="checkbox" ?checked=${this.flag} />
+
+        <bb-mensaje .prefijo=${prefijo} .mensaje=${this.mensaje}>
+        </bb-mensaje>
+
+        <bb-mensaje prefijo="El mensaje es: " .mensaje=${this.mensaje}>
+        </bb-mensaje>
+
+8.	Aún no lo pruebe, observe como falta registrar el nuevo elemento bb-pa y el código 
+    del elemento bb-mensaje.
+
+9.	Registre el elemento bb-pa.
+
+10.	Cree una nueva subclase de LitElement en el mismo archivo fuente, el nombre de la clase 
+    es BBMensaje.
+
+11.	Agregue dos propiedades de tipo String: prefijo y mensaje. No las inicialice en el 
+    constructor.
+
+12.	Renderice el siguiente TemplateResult: html`<div>${this.prefijo}  ${this.mensaje}</div> `
+
+13.	Registre este nuevo elemento con  el método  customElements.define("bb-mensaje", BBMensaje);
+
+14.	Agregue el nuevo al archivo index.html y pruebe su página.

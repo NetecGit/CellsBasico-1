@@ -1,0 +1,37 @@
+
+Práctica 1.4.1 Herencia Figuras
+
+1. Cree una función constructora para instanciar objetos Rectángulo, la función recibe 
+   la base y la altura del rectángulo.
+
+2. Defina un método para el objeto Rectángulo para calcular el área y perímetro del rectángulo.
+
+3. Declare una variable de tipo rectángulo.
+
+4. Calcule el área de un rectángulo de base 20 y alto 4.
+
+5. Despliegue el valor del área y perímetro.
+
+6. Ya cuenta con la función constructora para el Circulo, ahora tiene dos figuras geométricas 
+   que pueden tener un color y ambas ya calculan el área y perímetro.
+
+7. Es tiempo de usar herencia. Tanto la clase Círculo como Rectángulo forman parte de un tipo 
+   de objetos más general, llamado Figura.
+
+8. Cree una función constructora Figura, que encapsule el color de las figuras geométricas. 
+   Inicialice la propiedad con el valor de la cadena “azul” para los círculos y “rojo” para 
+   los rectángulos.
+
+9. Verifique que una instancia de Círculo sea una instancia de Figura.
+
+10. Verifique que una instancia de Rectángulo sea una instancia de Figura.
+
+11. Verífique que no haya relación entre Círculo y Rectángulo.
+
+12. Calcule el área y perímetro de un círculo de radio 10, despliegue el color y los resultados
+    del área y perímetro.
+
+13. Calcule el área y perímetro de un rectángulo de base 10 y altura 10, despliegue el color 
+    y los resultados del área y perímetro.
+
+14. ¿Quién tiene mayor área? Haz una función llamada mayorArea() para comprobar el resultado.

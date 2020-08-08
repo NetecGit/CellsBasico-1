@@ -1,0 +1,9 @@
+Práctica III.3.1 Formulario
+
+1. Construya un formulario utilizando los nuevos <input> según se muestra 
+   en la siguiente imagen.
+
+   Nota: La imagen se encuentra en la plataforma digital: 
+         https://bbva.netecdigital.com/courses/cell-s-basico1/lectures/22400946 
+         o aquí mismo:
+         paractica_III_3_1.png

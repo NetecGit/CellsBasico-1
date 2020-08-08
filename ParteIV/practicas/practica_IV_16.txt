@@ -1,0 +1,44 @@
+Práctica IV.16 Compartir Estilos & Plantillas
+ 
+Realice los siguientes puntos:
+1.	Declare una plantilla global HTML donde muestre un párrafo una frase en Latin.
+
+2.	Cree una subclase de LitElement donde renderice la plantilla global, agregue estilos en
+    el borde para fácilmente localizar el componente en la página.
+
+3.	Renderice la plantilla del punto 1.
+
+4.	Cree en el mismo archivo de código fuente JavaScript una segunda subclase de LitElement, 
+    agregue nuevamente estilos al borde para localizar el componente en la página.
+
+5.	Renderice la plantilla del punto 1.
+6.	Cree una tercera subclase de LitElement y renderice los elementos Lit del punto 2 y punto 4.
+7.	En la página HTML solo deberá aparecer el uso del tercer componente. Deberá observar 
+    los elementos Lit del punto 2 y 4.
+
+8.	Agregue un template tag css global con los siguientes estilos:
+
+    :host {
+        display: block;
+    }
+
+    .caja {
+        border: 4px solid lightblue;
+    }
+
+    .caja1 {
+        width: 43px;
+        height: 43px;
+        background-color: lightgreen;
+    }
+
+9.	Agregue los estilos y utilice al componente del punto dos y utilícelos para renderizar 
+    la plantilla del primer componente.
+
+10.	Agregue los estilos en el segundo componente, el método styles() para componer los estilos
+    en un arreglo, agregue el estilo anterior y un nuevo para el borde. 
+
+    Sugerencia: en la primera posición del arreglo coloque el estilo definido en el punto
+                ocho y en la segunda posición del arreglo el nuevo estilo.
+                
+11.	Pruebe y visualice la página.

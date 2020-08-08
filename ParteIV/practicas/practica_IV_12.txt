@@ -1,0 +1,57 @@
+Práctica IV.12 Arreglos & Map
+
+1.	Cree un nuevo elemento Lit en el mismo proyecto de la práctica anterior.
+
+2.	Realice las importaciones necesarias del módulo lit-Element.
+
+3.	Cree una subclase de LitElement de nombre Actualiza.
+
+4.	Agregue las dos propiedades siguientes e inicialice las propiedades en el constructor.
+
+    +---------------+-----------+--------------------------+
+    | Nombre        |	Tipo    |	Valor                  |
+    +---------------+-----------+--------------------------+
+    |               |           |                          |
+    |  arreglo	    |  Array	| [                        |
+    |               |           |   {id:1},                |
+    |               |           |   {id:2},                |
+    |               |           |   {id:2},                |
+    |               |           | ]                        |
+    +---------------+-----------+--------------------------+
+    |  objeto	    |   Object  | { id:1, texto:"Google" } |
+    +---------------+-----------+--------------------------+
+
+5.	Cree y renderice una plantilla que muestre las dos propiedades.
+
+    <h3>Elementos del arreglo:</h3>
+    <ul>
+    ${this.arreglo.map(
+        ii => html`<li>${ii.id}</li>`)}
+    </ul>
+    <button @click=${this.agregarElemento}>Agregar</button>
+
+    <h3>Contenido del Objecto:</h3>
+    <div><strong>${this.objeto.id}</strong>: ${this.objeto.texto}</div>
+    <button @click=${this.cambiar}>Actualizar</button>
+
+6.	Agregue la función para agregar un elemento al arreglo. La función debe de calcular 
+    un id con un número aleatorio en el rango de [1,100] y agregar dicho número al arreglo.
+
+7.	Agregue la función para cambiar el valor de la propiedad del objeto id, este valor 
+    también es un número aleatorio en el rango de [1,100].
+
+8.	Muestre el elemento Lit en el index.html
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <script type="module" src="./arreglosyobjetos.js"></script>
+    </head>
+    <body>
+        <bb-actualiza></bb-actualiza>
+    </body>
+    </html>
+
+
+
+
+

@@ -1,0 +1,21 @@
+Práctica III.1.3 Etiquetas HTML5
+
+1. Describa el propósito de tres nuevas etiquetas.
+ 
+2. Transforme el bloque de código a HTML5.
+
+    <div id="ultimas-noticias" class="caja">
+    <h2 class="script">Últimas noticias</h2>
+    <div class="nuevas-publicaciones">
+        <h3><a href="#">Las 10 mejores librerías del mundo</a></h3>
+        <p><span>22/09/2012</span> | <span class="via">vía</span> 
+        <a href="#">Mentes inquietas</a></p>
+    </div>
+    <div class="nuevas-publicaciones">
+        <h3><a href="#">El libro más antiguo</a></h3>
+        <p><span>21/09/2012</span> | <span class="via">vía</span>
+        <a href="#">Antigüedades hoy</a></p>
+    </div>
+    </div>
+
+3. Convierta las siguientes páginas web pag_en_html4.html a HTML5.

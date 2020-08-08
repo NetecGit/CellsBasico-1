@@ -1,0 +1,25 @@
+Práctica II.6.1 Excepciones
+
+1. Cree una página web que realice lo siguiente:
+
+    a. Utilice un <input> para solicitar un valor numérico.
+
+    b. Agregue un botón a la página, gestione el evento del botón con una función de 
+       nombre bbfun().
+
+    c. Agregue un párrafo con el id="demo".
+
+    d. La función administradora del evento onclick. Deberá localizar el elemento del punto c.
+
+    e. Si la información enviada por el usuario es vacía lance un error con la cadena 
+       con el mensaje de error, "vacío".
+
+    f. Si la información no es un número lance un error con la cadena con el mensaje, 
+       "no es un número".
+
+    g. Si la información es un número negativo, lance un error "no es un número positivo".
+
+    h. Si la información es un número, valide que sea mayor a 0, escriba en la página, 
+       número válido, y convierta la cadena en número.
+
+    i. Deberá "atrapar" todos los errores y mandar el mensaje en la página.

@@ -1,0 +1,46 @@
+
+Práctica IV.15 Comunicación Padre-Hijo
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.9:  mkdir practica15.
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main,
+    autor, etc.
+
+5.	Ejecute: npm install lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente, PadreHijo.js.
+
+9.	Importe LitElement, html y css del módulo lit-element.
+
+10.	Cree una primera subclase de LitElement de nombre Padre.
+
+11.	Cree un método que reciba un evento y despliegue el detalle de ese evento a la 
+    consola del navegador (evento.detalles). Llame al método callback().
+
+12.	Renderice la siguiente plantilla: <bb-hijo @event-fired=${this.callback}></bb-hijo>
+
+13.	Cree una segunda subclase de LitElement de nombre Hijo.
+
+14.	Cree un método de hombre handler() el cuál invoque this.dispatchEvent() 
+    con un objeto CustomEvent como argumento: 
+    
+    new CustomEvent("event-fired", { detalles: 1000 })
+
+15.	Renderice una plantilla con un botón que maneje el evento con @click asociando 
+    el método handler() del punto anterior.
+
+16.	Registe los dos nuevos elementos "bb-padre" y "bb-hijo".
+
+17.	Agregue el elemento bb-padre al archivo index.html.
+
+18.	Visualice y pruebe la página creada en el proyecto.
+
+

@@ -1,0 +1,14 @@
+Práctoca II.1.5 Factorial
+
+1. Cree una página HTML.
+
+2. Solicite al usuario un número entero, Sugerencia: use la función prompt().
+
+3. Verifique que lo ingresado por el usuario sea un número, en caso de no serlo, 
+   envíe una ventana de dialogo indicando que necesita un número, y cargue nuevamente 
+   la página solicitando un número.
+
+4. Si lo ingresado es un número, entonces despliegue en la página el factorial del número 
+   dado por el usuario.
+   
+5. Si lo ingresado es un número, también indique al usuario si su número es par o impar.

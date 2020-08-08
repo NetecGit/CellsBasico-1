@@ -1,0 +1,18 @@
+Práctica II.2 Colecciones (Arrays, Maps & Class).
+
+1. Declare una colección que debe tener los nombres y calificaciones siguientes: 
+   Leticia 10, Raúl 8, Cecilia 9, Antonio 5 y Ana 7.
+
+2. Despliegue todas las calificaciones a la consola.
+
+3. Modifique la calificación de Antonio a 8.5
+
+4. Elimine la información con respecto a Ana.
+
+5. Ingrese el nombre y la calificación de Roberto con 10 y Jesús con 9.5
+
+6. Ordene la colección por calificación en forma ascendente.
+
+7. Despliegue solo la información de los 3 estudiantes con mejor calificación.
+
+8. Despliegue el promedio de las calificaciones.

@@ -1,0 +1,115 @@
+Práctica IV.4 Render
+
+1.	Coloque todas las instrucciones de esta práctica en un archivo de nombre practica4.js, 
+    agregue este archivo al archivo index.html usando la etiqueta <script>.
+
+2.	Cree y renderice una plantilla que reciba dos valores, subtotal e impuestos y despliegue 
+    la suma de estos.
+
+3.	Vincule un par de atributos en una plantilla y renderice. Sugerencia: class & disabled
+
+4.	Observe la plantilla 4, se agregaron oyentes de eventos, equivalente a 
+    addEventListener('click', handler);
+
+5.	Renderice y pruebe la página.
+
+    let contador = 1;
+    function handler() {
+        console.log(contador);
+        contador++;
+        let ele = document.getElementById("demo7");
+        ele.innerHTML = contador;
+    }
+
+    const plantilla4 = () => html`
+    <div id="demo7"></div>
+    <button @click=${handler}>Pulsa</button>
+    `;
+    // Renderiza la plantilla 4
+
+6.	Renderice la siguiente plantilla, observa que se anidaron y/o aplicaron composición de plantillas.
+    
+    const hh = html`<h1>Encabezado</h1>`;
+    const pagina = html` ${hh} 
+    <div>Esto es para la página</div>
+    `;
+    // Renderiza 
+
+7.	Renderice la plantilla cinco, observe el uso de condicionales pruebe con valores true y false.
+
+    let user = { isloggedIn: true, nombre: "Gabriel" }
+    const plantilla5 = html`   ${user.isloggedIn ? html`Bienvenido ${user.nombre}` :
+        html`Ingresa a la página link`
+        }`;
+
+    // Renderiza la plantilla5
+
+8.	Renderice la plantilla seis, observe el uso de condicionales.
+
+    function obtenMensaje() {
+        if (user.isloggedIn) {
+            return html`Bienvenido ${user.name}`;
+        }
+        return html`Por favor ingresa al registro...`;
+    }
+
+    const plantilla6 = html`${obtenMensaje()}`;
+
+    // Renderiza la plantilla6
+
+9.	Renderice la plantilla siete, observe las repeticiones por medio de Array.map.
+
+    let items = ["Azul", "Rojo", "Amarillo", "Azul", "Verde", "Rojo"];
+
+    const plantilla7 = html`
+    <ul>
+        ${items.map((item) => html`<li>${item}</li>`)}
+    </ul>`;
+
+    // Renderiza la plantilla7
+
+10.	Renderice la plantilla ocho, observe el uso de un ciclo para repetir plantillas.
+    const itemTemplates = [];
+
+    for (const I of items) {
+        itemTemplates.push(html`<li>${i}</li>`);
+    }
+
+    const plantilla8 = html`
+    <ol>
+        ${itemTemplates}
+    </ol>
+    `;
+
+    // Renderiza la plantilla8
+
+
+11.	Renderice la lista de empleados
+
+    import { repeat } from 'lit-html/directives/repeat';  // Directiva
+    let empleados = [
+    { id: '1', nombre: 'Gabriel', apellido: 'Guerrero' },
+    { id: '2', nombre: 'Everardo', apellido: 'Jerónimo' },
+    { id: '3', nombre: 'Roberto', apelligo: 'Meza' },
+    { id: '4', nombre: 'Jesús', apellido: 'Díaz' },
+    { id: '5', nombre: 'Laura', apellido: 'Yee' },
+    { id: '6', nombre: 'Beatriz', apellido: 'Tellez' }
+    ];
+
+    const lista = (empleados) => html`<ul type="square">
+        ${repeat(empleados, (ee) => ee.id, (ee, index) =>
+    html`<li>${index}: ${ee.apellido}, ${ee.nombre}</li>`)}  </ul>`;
+
+    // Renderiza la lista de empleados
+
+
+12.	Renderice la nada.
+
+    let usuario = {
+        isAdmin: false
+    };
+    
+    const nada = html`${usuario.isAdmin?
+            html`<button>Agregar</button>`  :  '' }`;
+
+    // Renderiza la nada

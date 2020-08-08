@@ -1,0 +1,14 @@
+
+Práctica II.2.2 Añadir Elementos
+
+1. Observe la siguiente imagen tomada de una captura de pantalla
+     Sugerencia: Observe la captura de pantall en bbva.netec.digital.
+
+     https://bbva.netecdigital.com/courses/cell-s-basico1/lectures/22401031
+
+     o también la puede encontrar aquí, el nombre del archivo:
+
+     practica_II_2_2.png
+     
+2. En este ejercicio construirá dinámicamente elementos para agregarlos al final 
+   de la lista al pulsar el botón de [Nuevo Elemento]

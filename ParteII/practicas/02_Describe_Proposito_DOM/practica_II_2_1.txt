@@ -1,0 +1,9 @@
+Práctica II.2.1 Cifras de Control
+
+1. A partir de una página web proporcionada y utilizando las funciones DOM,
+mostrar en la página la siguiente información:
+
+a. Número de enlaces en la página.
+b. Dirección a la que enlaza el último y penúltimo enlace.
+c. Número de enlaces a http://www.netec.com
+d. Número de enlaces del primer párrafo.

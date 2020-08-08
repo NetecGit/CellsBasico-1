@@ -1,0 +1,17 @@
+Práctica IV.19 Quiz
+
+Realice las siguientes instrucciones:
+
+1.	Utilice LitElement & Lit-html.
+
+2.	Construya una página web en la cual aparezca una serie de tres 
+    preguntas, con cuatro opciones para seleccionar la respuesta correcta,
+    al finalizar las tres preguntas deberá mostrar la cantidad de respuestas 
+    correctas.
+
+3.	Recuerde aplicar composición DRY y funcional, no genere una página para 
+    cada pregunta. 
+
+Nota: 
+    El wireframe lo puede encontrar en la plataforma digital 
+    BBVA de aprendizaje o localmente en el archivo practica_IV_19.png

@@ -1,0 +1,130 @@
+Práctica IV.2 Ciclo de Vida
+
+El objetivo de la práctica es que analice el ciclo de vida de este nuevo elemento.
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.2:  mkdir practica2
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main, autor, etc.
+
+5.	Ejecute: npm i lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente, bb-ciclo_de_vida.js, con el siguiente contenido:
+
+// Práctica del ciclo de vida
+
+import { LitElement, html } from 'lit-element';
+
+// P1
+class CicloDeVida extends LitElement {
+
+    /**
+     
+       Llamado una vez en la vida de un elemento, cuando se instancia.
+   
+       Útil para trabajos de configuración síncrona de una sola vez. No tiene acceso a cualquier DOM en el constructor.
+     
+       No debe realizar ningún efecto secundario aquí, porque alguien podría
+       crear su elemento sin agregarlo nunca al DOM. 
+   
+       Registrarse los oyentes de eventos en su propio elemento están bien.
+      **/
+
+    constructor() {
+        super();
+        // P2
+        
+    }
+
+    /**
+      Se llama cuando el elemento se agrega a la página, útil para el trabajo de configuración 
+      que requiere acceso al DOM. Sin embargo, su elemento no ha hecho su render inicial aquí todavía.
+     
+      Se puede llamar varias veces cuando su elemento se mueve en la página.
+     
+      Es posible que deba asegurarse de que su trabajo de configuración se ejecute solo una vez, 
+      o puede limpiarlo en el Callback desconectado.
+     
+       Debido a que LitElement funciona un poco en el conectado Callback, siempre debe llamar a 
+       super.connectedCallback. 
+     */
+    connectedCallback() {
+        super.connectedCallback();
+        // P3
+        
+    }
+
+    /**
+       Se llama cuando el elemento se elimina de la página. 
+       Útil para la limpieza del trabajo realizado en conectado Callback.
+     */
+    disconnectedCallback() {
+        // P4
+
+        super.disconnectedCallback();
+    }
+
+    /**
+      Se invoca cuando se activa una actualización, antes de la representación. 
+      Recibe un mapa de propiedades modificadas y sus valores anteriores. 
+      Esto se puede usar para modificar o establecer nuevas propiedades antes de que ocurra un render.
+     */
+    update(changed) {
+        super.update();
+
+        // P5
+        
+    }
+
+    /**
+       Llamado cuando su elemento se ha procesado por primera vez. 
+       Llamado una vez en la vida de un elemento. Útil para trabajos de configuración únicos 
+       que requieren acceso al DOM
+     */
+    firstUpdated() {
+        super.firstUpdated();
+        // P6
+    }
+
+    /**
+      Utiliza lit-html para representar la plantilla de elemento. Debe implementar render 
+      para cualquier componente que amplie la clase base LitElement
+    */
+
+    render() {
+
+        // P7  
+        
+        return html`<p>Demo ciclo de vida de un elemento lit-element</p>
+        <p>Esto es desde el LitElement <\p>`;
+    }
+}
+
+// P8
+
+customElements.define('bb-ciclodevida', CicloDeVida);
+
+9.	Analice el contenido del código y lea los comentarios de cada método.
+
+10.	Localice los comentarios // P[12345678] y agregue un mensaje a la consola, para distinguir en que método se encuentra o en que parte del código se encuentra. Por ejemplo, si está en el método render, escriba: console.log("render()");
+
+11.	Cree el archivo index.html en la raíz de la carpeta practica1.
+
+12.	Utilice el nuevo elemento <bb-ciclodevida>, en el archivo index.html. 
+
+13.	Importe el código del elemento LitElement en el archivo index.html:  <script type="module" src="src/BBElement.js"></script>
+
+14.	Ejecute la instrucción siguiente: polymer serve --open
+
+15.	Vaya al navegador y pulse [F12] para ver los mensajes en la consola.
+
+16.	Verifique los mensajes en la consola.
+
+17.	Comente su experiencia de la práctica.

@@ -1,0 +1,14 @@
+Practica I.1 OOP Conceptos
+
+Escriba en UML, JavaScrip, el lenguaje de su preferencia o pseudocódigo lo siguiente:
+
+1. Una clase de objetos de su preferencia, real o abstracta.
+
+2. Agregue atributos y métodos a su clase.
+
+3. De la clase de objetos definidos en punto 1, ¿Es posible aplicar Herencia?
+
+4. ¿Puede agregar un método polimorfo a su jerarquía de clases?
+
+5. ¿En su modelo de clases de objetos puede indicar cuál de las clases podría 
+    ser una clase abstracta y justificar su respuesta?

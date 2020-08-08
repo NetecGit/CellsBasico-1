@@ -1,0 +1,45 @@
+Práctica IV.3 Lit-html
+
+1.	Cree un proyecto para trabajar con Lit-html.
+
+2.	Cree una carpeta, con el nombre de practica3. 
+
+3.	Cámbiese a la carpeta del punto anterior.
+
+4.	Iniciar el proyecto, completar el cuestionario con el nombre del paquete, versión, 
+    descripción, punto de entrada (index.html), instrucción para prueba, repositorio Git, 
+    palabras clave, autor y licencia. Al finalizar la instrucción verifique la creación del 
+    archivo package.json: npm init
+
+5.	Instale lit-html: npm install lit-html
+
+6.	Verifique la creación de la carpeta "node_modules" y el archivo package-lock.json. 
+    Dentro de la carpeta node_modules, se encuentra la carpeta lit-html.
+
+7.	Inicie el editor VSC: code . 
+
+8.	Cree un archivo llamado practica3.ts y vincule este archivo con el archivo index.html
+
+9.	Declare una plantilla para desplegar "Bienvenido al curso".
+
+10.	Renderice la plantilla del punto anterior. Sugerencia: use el método render().
+
+11.	Defina una plantilla por medio de una función flecha (=>), que acepte como parámetro 
+    el nombre del curso.
+
+12.	Renderice la plantilla del punto tres, con el nombre del curso 'Lit-html'. 
+    Sugerencia: use el método render().
+
+13.	Renderice la plantilla del punto tres con información diferente.
+
+14.	Cree la clase Cliente, con las propiedades de nombre, correo y título.
+
+15.	Agregue el método toString() que devuelva una cadena con el título, nombre y correo.
+
+16.	Agregue un nuevo método de nombre format() que invoque a toString().
+
+17.	Cree un objeto de la clase Cliente.
+
+18.	Defina una plantilla Lit-html para desplegar la información de un cliente.
+
+19.	Renderice la plantilla del punto anterior.

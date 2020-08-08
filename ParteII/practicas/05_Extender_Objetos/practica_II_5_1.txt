@@ -1,0 +1,23 @@
+
+Práctica II.5.1 Expresiones Regulares
+
+1. Cree un archivo de nombre práctica_II_5_1.js, con el siguiente contenido.
+    Nota: El código del archivo lo puede ver en el archivo: practica_II_5_1.js
+
+2. En el código debe sustituir el valor de undefined por el valor del patrón necesario para:
+
+    * Encontrar el tercer carácter, este puede ser un número del cero al cinco.
+
+    * Encontrar el tercer carácter, este puede ser del cero al cinco o una letra minúscula.
+
+    * Encontrar el tercer carácter, este puede ser . ó :
+
+    * Encontrar el tercer carácter, este no puede ser ni 0, 1 ni tampoco 2.
+
+3. La salida del script puede ser la siguiente, dirigirse a plataforma digital de aprendizaje.
+
+    https://bbva.netecdigital.com/courses/cell-s-basico1/lectures/22401022
+
+    o 
+ 
+    En el archvio practica_II_5_1.png

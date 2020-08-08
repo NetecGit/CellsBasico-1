@@ -1,0 +1,14 @@
+Práctica III.3.2 Formulario
+
+1. Construya un formulario según se muestra en la imagen.
+
+    * El rango de edad válida es 18 a 80.
+    
+    * Haga uso de validación personalizada.
+
+     Nota:  
+     La imagen la puedes encontrar en la plataforma BBVA de aprendizaje
+     https://bbva.netecdigital.com/courses/cell-s-basico1/lectures/22400947
+     
+     o aquí mismo, el nombre del archivo con la imagen es: practica_III_3_2.png
+

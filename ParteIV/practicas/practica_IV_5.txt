@@ -1,0 +1,47 @@
+Práctica IV.5 Propiedades
+
+El objetivo de la práctica es manejar las propiedades de un nuevo elemento Lit.
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.5: mkdir practica5.
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main, 
+    autor, etc.
+
+5.	Ejecute: npm install lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente, bb-propiedades.js 
+
+9.	Realice los imports de LitElement y html del módulo lit-element.
+
+10.	Cree la clase BBPropiedades que extienda de LitElement.
+
+11.	Agregue dos propiedades, una llamada mensaje de tipo String y otra llamada count 
+    de tipo number.
+
+12.	Inicialice en el constructor la propiedad this.count= 0.
+
+13.	Renderice la siguiente plantilla:
+<div>
+    <div>
+        El mensaje es: ${this.message}, El valor de count es: ${this.count}
+    </div>
+
+    <div>
+        El mensaje invertido es: ${this.reverso(this.mensaje)} <br/>
+        El valor de count + 1 es: ${this.count + 1}
+    </div>
+</div>
+
+14.	Agregue el método reverso(cadena) para devolver la cadena es forma inversa.
+
+15.	Registre su nuevo elemento Lit con customElements.define('bb-propiedades', BBPropiedades).
+
+16.	Pruebe su nuevo elemento, agregue el elemento al index.html.

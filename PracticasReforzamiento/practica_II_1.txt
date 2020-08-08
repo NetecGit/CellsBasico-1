@@ -1,0 +1,33 @@
+Práctica II.1 JavaScript & Clases
+
+1 Crea una clase llamada Serie con las siguientes características:
+
+    a. Los atributos son: título, número de temporadas, fecha, entregado y actores.
+
+    b. Por defecto, el número de temporadas es 2 y entregado en falso.
+
+    c. El resto de los atributos serán valores por defecto según el tipo del atributo.
+
+    d. Los constructores que se implementarán serán:
+
+            1. Un constructor por defecto.
+            2. Un constructor con el título y los actores, el resto por defecto.
+            3. Un constructor con todos los atributos.
+
+    e. Los métodos que se implementarán serán:
+
+            1. Métodos getters de todos los atributos, excepto de entregado.
+            2. Métodos setters de todos los atributos, excepto de entregado.
+            3. Implemente el método toString().
+
+2. Cree un arreglo de Series con tres elementos.
+
+3. Cree el objeto para cada posición del arreglo, con los valores que desees, puedes usar los distintos constructores.
+
+4. Cree una función llamada entregar() que coloque aleatoria-mente en verdadero el atributo entregado de cada Serie en el arreglo.
+
+5. Cuente cuantas series tienen el atributo entregado en verdadero.
+
+6. ¿Cuál es la serie con más temporadas?
+
+7. Muestre los resultados en la consola con toda la información de la serie.

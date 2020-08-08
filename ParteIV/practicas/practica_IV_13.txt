@@ -1,0 +1,29 @@
+Práctica IV.13 Estilos
+
+1.	Cree un nuevo elemento Lit en el mismo proyecto de la práctica anterior.
+
+2.	Realice las importaciones de LitElement, html y css del módulo lit-element.
+
+3.	Cree una subclase de LitElement de nombre BBEstilos.
+
+4.	Agregue el siguiente código en la subclase:
+
+        static get styles() {
+            return css`
+            :host {
+                display: block;
+            }
+
+            .mensaje {
+                color: blue;
+            }
+            `;
+        }
+
+5.	Renderice un párrafo con cualquier mensaje de texto, pero el atributo class debe ser 
+    igual a "mensaje".
+6.	Registre su nuevo elemento de nombre bb-estilos.
+
+7.	Agregue el elemento al archivo index.html.
+
+8.	Observe y pruebe el código de la página.

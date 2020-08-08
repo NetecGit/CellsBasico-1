@@ -1,0 +1,6 @@
+Práctica III.1.1 Validación
+
+1. Visite el enlace siguiente https://validator.w3.org/ 
+   y determine la validez de al menos 2 sitios web que conozca.
+
+2. Comente sus impresiones de la actividad anterior.

@@ -1,0 +1,20 @@
+Práctica III.1 Formulario (HTML y CSS)
+
+En esta práctica usará HTML 5 y CSS para lograr las dos páginas siguientes:
+
+    a. La página de ingreso(login), con usuario y contraseña, liga de registro 
+       para nuevo usuario.
+
+    b. La página con el formulario de registro con los campos de entrada necesarios 
+       para registrarse: el nombre de usuario, contraseña, repetir contraseña, 
+       dirección de correo, genero, fecha de nacimiento, ciudad y país de residencia.
+
+    c. Aplique sus conocimientos de CSS para tener un diseño lo más apegado a las 
+       siguientes imágenes.
+
+       Nota: Las imágenes de los formularios solicitados, se encuentran en la plataforma
+             de aprendizaje BBVA
+
+       https://bbva.netecdigital.com/courses/cell-s-basico1/lectures/22470441  
+
+       o aquí mismo en el archivo ce nombre: practica_III_1.png

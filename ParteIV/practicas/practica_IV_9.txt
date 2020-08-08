@@ -1,0 +1,39 @@
+
+Práctica IV.9 Manejo de Eventos
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.9:  mkdir practica9.
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main, autor, etc.
+
+5.	Ejecute: npm install lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente. ManejoEventos.js.
+
+9.	Importe lo necesario del módulo lit-element.
+
+10.	Cree una nueva subclase de LitElement de nombre ManejoEventos.
+
+11.	Agregue una propiedad de tipo Number llamada contador, inicialícela a cero.
+
+12.	Agregue un método llamando decrementar(), el cual deberá de decrementar en uno el valor de la propiedad contador.
+
+13.	Renderice la siguiente plantilla:
+    <div>
+        Contador: [${this.contador}]<br/>
+        <button @click=${()=> (this.contador += 1)}>+</button>
+        <button @click=${this.decrementar}>-</button>
+    </div>
+
+14.	Registre el elemento con el nombre de bb-eventos.
+
+15.	Cree un archivo index.html y agregue el nuevo elemento.
+
+16.	Pruebe la página. Incremente y decremente el valor del contador.

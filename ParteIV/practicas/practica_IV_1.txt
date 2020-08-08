@@ -1,0 +1,45 @@
+Práctica IV.1 Primer Elemento Configuración
+
+El objetivo de la práctica es que pueda crear su primer elemento LitElement.
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.1:  mkdir practica1.
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main, autor, etc.
+
+5.	Ejecute: npm i lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo. package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente, bb-element.js, con el siguiente contenido:
+
+    // P1. LitElement y html son las importaciones básicas requeridas
+    import { LitElement, html, css } from "lit-element";
+
+    // P2. Cree una definición de clase para su componente y extienda la clase base LitElement
+    class BBSetup extends LitElement {
+
+        // P3. La devolución de llamada render() despliega la plantilla de del elemento. 
+        // Esta debería ser una función pura, siempre debe devolver la misma plantilla 
+        // con las mismas propiedades. No debe realizar cualquier efecto secundario 
+        // como establecer propiedades o manipular el DOM. 
+        // Ver el first-updated o ejemplos actualizados por primera vez 
+        // si necesita efectos secundarios.
+
+        render() {
+            // P4. Devuelve la plantilla usando la etiqueta de plantilla html.
+            // lit-html analizará la plantilla y crea los elementos DOM
+            return html`<div>Hola Mundo LitElement</div> `;
+        }
+    }
+
+    // P5. Registre el elemento en el registro de elementos personalizados, 
+    // Necesita un nombre de la nueva etiqueta HTML y la definición de clase
+    // El nombre del elemento siempre debe contener al menos un guión.
+    customElements.define("basic-setup", BasicSetup);
+

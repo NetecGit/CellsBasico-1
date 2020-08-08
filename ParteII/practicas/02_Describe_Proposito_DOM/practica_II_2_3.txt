@@ -1,0 +1,7 @@
+Práctica II.2.3 Cuadrícula
+
+1. Analice el código HTML, practica_II_2_3.html
+
+2. Analice el código JavaScripy, practica_II_2_3.js
+
+3. Modifique la página cuadrícula.html para que muestre una cuadrícula de 3x3.

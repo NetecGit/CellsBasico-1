@@ -1,0 +1,6 @@
+Práctica III.2.1 Vincular estilos
+
+1. Adicione una hoja de estilos para las páginas SinCSS.html.
+
+2. Adicione una hoja de estilos a la actividad del formulario 
+   del capítulo anterior.

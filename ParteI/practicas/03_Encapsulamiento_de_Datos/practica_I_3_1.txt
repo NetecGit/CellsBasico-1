@@ -1,0 +1,21 @@
+Práctica I.3.1 Objetos
+
+1. Cree una función constructora Círculo, con una propiedad de radio.
+
+2. Encapsule la propiedad radio del Círculo.
+
+3. A la función constructora le agregamos a través de su prototipo 
+   los métodos dos métodos: área() y perímetro().
+
+4. Cree una instancia con la función constructora con el valor de 10 
+   para el radio.
+
+5. A través de la referencia a la instancia Círculo, calcule el área 
+   y el perímetro del círculo de radio 10.
+
+6. Utilice Math.PI, para el valor de la constante pi.
+
+7. Usando console.log() despliegue los resultados del área y perímetro.
+
+8. Verifique sus resultados:
+    área: 314.1592653589793 perímetro: 62.83185307179586.

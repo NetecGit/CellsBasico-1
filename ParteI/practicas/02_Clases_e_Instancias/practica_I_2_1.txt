@@ -1,0 +1,27 @@
+
+Práctica I.2.1 Funciones
+
+1. Abra el navegador Chrome, vaya a www.google.com y pulse [F12] para abrir la consola del 
+   navegador.
+
+2. La instrucción anterior lo puso en la Consola, puede verificarlo por el título de la 
+   pestaña superior derecha.
+
+      Elements [Console] Sources Networks Performance Memory >>
+
+3. Escriba en el prompt de la consola y pulse [Enter] para finalizar: console.log(“Hola Mundo”);
+
+4. Escriba una función llamada saludo, que reciba un argumento y lo escriba a la salida de
+   la consola.
+
+5. Invoque la función saludo() con dos mensajes diferentes y observe la salida.
+
+6. Cree una función sumar(), que reciba dos valores numéricos y devuelva el resultado de la suma.
+
+7. Cree una función restar(), que reciba dos valores numéricos y devuelva el resultado de la resta.
+
+8. Invoque a la función sumar() y restar() y despliegue los resultados con un mensaje agradable.
+
+    "El valor de sumar 4 y 5 es igual a 9"
+
+    "El valor de restar 4 y 5 es igual a -1"

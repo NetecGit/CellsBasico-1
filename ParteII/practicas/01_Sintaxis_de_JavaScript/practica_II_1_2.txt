@@ -1,0 +1,11 @@
+Práctica II.1.2 Meses
+
+1. Cree una página HTML que muestre los valores de un arreglo 
+JavaScript.
+
+2. Los 12 valores del arreglo son los nombres de los meses.
+
+3. Cada valor tiene que estar precedido del número del 
+   mes 1. Enero, 2. Febrero, …, 12. Diciembre.
+
+4. Opcional: Resalte en negritas el mes en el que se encuentra.

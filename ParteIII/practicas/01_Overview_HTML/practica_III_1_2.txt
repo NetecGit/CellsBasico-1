@@ -1,0 +1,11 @@
+Práctica III.1.2 Cumplimiento
+
+1. Determine el nivel de cumplimiento de sus navegadores instalados.
+
+2. Comente sus impresiones de la actividad anterior.
+
+    a. ¿Qué caracteríscas no son aceptadas por su navegador?
+
+    b. ¿Las considera relevantes?
+
+    c. ¿Qué soluciones propone?

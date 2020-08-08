@@ -1,0 +1,10 @@
+Práctica I.1.2 Relaciones
+
+1. Realice un diagrama de clases en donde especifique las relaciones entre las siguientes 
+   clases: Alumno, Profesor, Materia, Grupo, Computadora, Proyector y Aula.
+
+2. No se preocupe por los atributos y métodos, solo especifique las relaciones de uso, 
+   agregación, composición y herencia entre ellas.
+
+Sugerencia: Usa una herramienta para elaborar diagramas UML, 
+            por ejemplo: UMLet https://www.umlet.com/changes.htm

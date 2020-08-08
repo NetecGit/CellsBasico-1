@@ -1,0 +1,35 @@
+Práctica IV.6 Cambios
+
+1.	Abra una terminal o consola de trabajo.
+
+2.	Posiciónese en la carpeta de trabajo.
+
+3.	Cree una carpeta para esta práctica 4.6:  mkdir practica6.
+
+4.	Ejecute: npm init, conteste lo que se pide: nombre, versión, descripción, entry main, 
+    autor, etc.
+
+5.	Ejecute: npm install lit-element.
+
+6.	Verifique la creación de la carpeta node_modules y el archivo package-lock.json.
+
+7.	Cree una carpeta para el código fuente en JavaScript, sugerencia src.
+
+8.	Cree bajo src un archivo con el nombre de su componente, bb-cambios.js 
+
+9.	Realice los imports de LitElement y html del módulo lit-element.
+
+10.	Cree la clase BBCambios que extienda de LitElement.
+
+11.	Defina una propiedad de tipo Number llamada count.
+
+12.	Inicialice en el constructor a la variable count con el valor de 0.
+
+13.	Utilice setInterval() para actualizar la propiedad de count cada segundo, 
+    pasando de 0 a 10, al llegar a 10 resetee el valor de count a 0.
+
+14.	Renderice una plantilla con el valor de este contador.
+
+15.	Registre el elemento Lit con customElements.define().
+
+16.	Pruebe su nuevo elemento, agregue el elemento al index.html.

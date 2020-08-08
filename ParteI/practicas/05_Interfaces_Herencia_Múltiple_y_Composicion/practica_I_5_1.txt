@@ -1,0 +1,40 @@
+Práctica I.5.1 Análisis de código fuente
+
+0. Copie el código siguiente a un archivo de nombre práctica_I_5_1.js con cualquier editor 
+   de textos de su preferencia. Sugerencia: notepad++, o Visual Studio Code.
+
+   (El código se encuentra en el archivo: practica_I_5_1.js)
+
+1. Analice el código, puede observar que se trata de los mismos fragmentos de código vistos en este capítulo.
+
+2. Conteste lo siguiente:
+
+3. ¿Cuántas funciones constructoras se encuentran en el código?
+
+4. ¿Aquaman es un Superhéroe?
+
+5. ¿Cuáles son las propiedades de Aquaman?
+
+6. ¿Qué comportamientos tiene Aquaman?
+
+7. ¿Es posible crear instancias de la clase Aquaman?
+
+8. ¿Superman es un Superhéroe?
+
+9. ¿Superman es un Personaje?
+
+10. ¿Cuáles son las propiedades de Superman?
+
+11. ¿Superman sabe hablar, pensar, y dibujar?
+
+12. ¿Qué otra cosa puede hacer Superman?
+
+13. ¿Superman es un Mago?
+
+14. ¿Superman es un Alienígena?
+
+15. ¿Superman es un Caballero?
+
+16. ¿Cuál es la diferencia entre la composición y la herencia?
+
+17. ¿Distinge las diferencias entre un objeto Superman y un objeto SupermanAlien?

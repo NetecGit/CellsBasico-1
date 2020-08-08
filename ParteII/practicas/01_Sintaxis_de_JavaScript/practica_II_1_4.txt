@@ -1,0 +1,10 @@
+Práctica II.1.4 Tipos de datos
+
+1. Cree una página HTML y despliegue en la página el tipo de dato se está usando, 
+   para los siguientes valores:
+    a. Date, Function, Math, Option, String, console, console.log(), alert, window, document y Array.
+    b. Eval, blur, parseInt, Math.LN2, true, null, undefine, '' y "".
+    c. true, 10, 10.0, 'Hola', Symbol.
+    d. Prompt.
+
+2. Comente ¿Cuál tipo de dato le sorprendió?

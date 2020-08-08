@@ -1,0 +1,27 @@
+
+Práctica I.1.1 Objetos
+ 
+ 1. Dado el siguiente alcance de problema encuentre las abstracciones clave.
+
+    Se desea hacer una aplicación básica para una Banca Electrónica de una Compañía que permita registrar a los clientes y crearles una o más cuentas de ahorros,
+    de cheques o de inversión, cada una de ellas tendrá sus propias reglas de manejo. Los clientes podrán consultar cada una de sus cuentas con sus movimientos y ver su estado de cuenta por la pantalla. 
+    Los clientes también podrán hacer transferencias entre sus cuentas de cheques y ahorros, pero no en las de inversión.
+
+    Los requerimientos iniciales son:
+
+    • Registrar a los clientes en el Banco.
+    • Crear una o más cuentas de ahorros, cheques o inversión en el momento de alta.
+    • Consultar los datos de un cliente y los datos generales de las cuentas que tiene en el banco.
+    • Consultar en pantalla algún estado de cuenta de un cliente en particular.
+    • Generar un reporte en pantalla de todos los clientes del banco.
+    • Realizar transferencias bancarias entre cuentas de ahorros y de cheques.
+    • Las cuentas de ahorros tendrán un rendimiento mensual del 1% abonados al final de cada mes.
+    • Las cuentas de cheques no generan intereses y el banco cobrará 150 pesos mensuales por manejo de cuenta.
+    • Las cuentas de inversión pueden abrirse a plazos de 1 a 5 años con una tasa de interés del 10% anual, no se pueden hacer retiros hasta que venza el plazo pactado en el contrato.
+        
+    
+2. De cada abstracción encuentre sus atributos.
+
+3. De cada abstracción encuentre su comportamiento.
+
+4. Encuentre que tipo de relaciones hay entre ellas. (Herencia, composición, uso y agregación).

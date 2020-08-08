@@ -1,0 +1,12 @@
+Práctica II.1.1 Nivel de Cumplimiento
+
+1. Determine el nivel de cumplimiento de los navegadores 
+   instalados para ECMAScript 6.
+
+2. Comente sus impresiones de la actividad del punto anterior.
+
+    a. ¿Qué características no son aceptadas por su navegador?
+
+    b. ¿Las considera relevantes?
+
+    c. ¿Qué soluciones propone?

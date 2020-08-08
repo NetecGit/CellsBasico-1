@@ -1,0 +1,26 @@
+Práctica II.1.6 String
+
+1. Cree una página HTML.
+
+2. Con un <input> y un <button>
+
+3. Informe al usuario que ingrese una frase en el campo y pulse el botón.
+
+4. Elimine los espacios en blanco al principio y al final de la cadena.
+
+5. Muestre en la página la longitud del mensaje ingresado, es decir, cuantos 
+   caracteres y palabras tiene su frase.
+
+6. Muestre su frase en mayúsculas.
+
+7. Muestre su frase en minúsculas.
+
+8. Si el usuario ingreso la frase con sólo mayúsculas indíqueselo.
+
+9. Si el usuario ingreso la frase con sólo minúsculas indíqueselo.
+
+10. Si el usuario ingreso la frase con mayúsculas y minúsculas indíqueselo.
+
+11. Cree una función para verificar si la frase es un palíndroma.
+
+12. Notifique al usuario si la frase ingresada es un palíndroma.

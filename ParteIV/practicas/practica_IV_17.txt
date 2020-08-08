@@ -1,0 +1,20 @@
+Práctica IV.17 DOM
+
+Realice las siguientes instrucciones.
+
+1.	Utilice LitElement & Lit-html.
+
+2.	Contruya una página en la aparezca un campo de entrada para capturar la descripción 
+    de una nueva tarea.
+
+3.	Agregue un botón para agregar la nueva descripción de tarea a la lista no ordenada de
+    la página.
+
+    Nota: 
+          El wireframe de esta práctica lo puedes encontrar en la 
+          plataforma BBVA de aprendizaje, o localmente en el archivo: 
+          practica_IV_17.png
+
+
+4. Opcionalmente diseñe y programe la lógica del elemento Lit para eliminar una actividad 
+   de la página y/o agenda.

@@ -1,0 +1,16 @@
+Práctica II_3_2 Planetas
+
+1. Defina un objeto de tipo Planeta, cuyas propiedades de instancia son: diámetro, 
+   temperatura y nombre.
+
+2. La temperatura es un valor numérico en grados Celsius.
+
+3. Agregue como una propiedad común a todos los objetos de tipo planeta, descripción, 
+   la cual tendrá la descripción de su ubicación con respecto al Sol.
+
+4. Agregue el método común para calcularRadio() y ctof().
+
+5. Cree tres objetos de tipo planeta, agregue los objetos a un arreglo de planetas.
+
+6. Para todos los planetas compruebe que puede acceder tanto a las propiedades específicas, 
+   las propiedades agregadas y los métodos comunes desde cada objeto.

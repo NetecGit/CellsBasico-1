@@ -1,0 +1,24 @@
+Práctica II.1.3 Arreglo Heterogéneo
+
+1. Dado el siguiente arreglo en JavaScript:
+
+    var arreglo= [ "hola", 1, true, 4, false, 'Adios', 5.5 ]
+
+2. Asigne a las variables v1 y v2 los dos valores booleanos del arreglo.
+
+3. Obtenga un valor true aplicando el operador lógico adecuado.
+
+4. Obtenga un valor false aplicando el operador lógico adecuado.
+
+5. Asigne a las variables v3 y v4 los dos valores numéricos enteros del arreglo.
+
+6. En una sola expresión decremente a v3 en uno, incremente a v4 en uno, 
+   suma los valores, el resultado tiene que darte 4.
+
+7. Obtenga el entero más próximo a la derecha del valor del arreglo con punto decimal.
+
+8. Obtenga el entero más próximo a la izquierda del valor del arreglo con punto decimal.
+
+9. Elimine los valores booleanos del arreglo.
+
+10. Genere una cadena con la concatenación de los valores restantes del arreglo.

@@ -1,0 +1,33 @@
+Práctica III.2 Validación de Formulario (HTML, CSS y JS)
+
+1. En esta práctica usará JavaScript para validar el formulario de la Práctica III.1
+
+2. La página principal tiene un formulario con nombre de usuario y contraseña para tener 
+   acceso como un usuario registrado. Antes de enviar el formulario se debe comprobar 
+   que el usuario ha escrito algo en los dos campos de entrada, y evitar que el usuario 
+   escriba solamente espacios en blanco o tabuladores.
+
+3. La página con el formulario de registro como nuevo usuario contiene el formulario 
+   con los datos necesarios para registrarse, nombre de usuario, contraseña, repetir contraseña,
+   dirección de correo, género, fecha de nacimiento, ciudad y país de residencia. 
+   Antes de enviar el formulario, se deben realizar las siguientes comprobaciones:
+
+        a. Nombre de usuario. Sólo puede contener letras mayúsculas y minúsculas y números; 
+           la longitud mínima es 5 y la máxima 20.
+
+        b. Contraseña. Sólo puede contener letras, números y el guión bajo. Al menos 
+           debe contener una letra en mayúsculas, una letra en minúsculas y un número; 
+           la longitud mínima es de 6 caracteres y la máxima de 12.
+
+        c. Repetir contraseña. Su valor debe coincidir con el escrito en el campo de 
+           la contraseña.
+
+        d. Dirección de email. No puede estar vacío, debe comprobar que cumple con 
+           el patrón de una dirección de correo, cada dominio debe tener mínimo dos y
+           máximo de seis caracteres.
+
+        e. Género. Se debe elegir un valor de una lista.
+
+        f. Fecha de nacimiento. Comprobar que es una fecha válida.
+
+        g. El resto de los campos no indicados no son obligatorios.

@@ -1,0 +1,29 @@
+
+// Práctica II.4.1 Funciones
+
+1. Cree un archivo practica_II_4_1.js e implemente lo siguiente:
+
+    a. Escriba un arreglo con números del 0 al 100.
+
+    b. Escriba una función que reciba como parámetro un número entero y devuelva 
+       una cadena de caracteres indicando si el número es par o impar.
+
+    c. Muestrela pantalla el valor devuelto de la función.
+
+2. Cree un archivo practica_II_4_2.js e implemente lo siguiente:
+
+    a. Defina una función que muestre la información de una cadena de caracteres pasada 
+       como parámetro.
+
+    b. Indique si la cadena sólo tiene letras mayúsculas, o solo letras minúsculas o ambas.
+
+    c. Muestre la longitud de la cadena.
+
+3. Cree un archivo práctica_II_4_3.js e implemente lo siguiente:
+
+    a. Defina una función que determine si la cadena de caracteres que se le pasa 
+       como parámetro en un palíndroma, es decir, si se lee de la misma forma de izquierda 
+       a derecha y desde derecha a izquierda. 
+       
+       Ejemplos: 
+        "No traces en ese cartón", "Isaac no ronca así".

@@ -1,0 +1,48 @@
+Práctica IV.10 Condicionales
+
+1.	Cree un nuevo elemento Lit en el mismo proyecto de la práctica anterior.
+
+2.	Realice las importaciones necesarias del módulo lit-Element.
+
+3.	Agregue la función siguiente:
+
+    function getMensaje(mensaje, show) {
+        if (show)
+            return `En la función getMensaje(): ${mensaje}`;
+        return "";
+    }
+
+4.	Cree una subclase de LitElement con tres propiedades:
+
+        +------------+-------------+------------------+
+        | Nombre     | 	Tipo       |	Valor         |
+        +------------+-------------+------------------+
+        | show	     | Boolean     |                  |
+        +------------+-------------+------------------+
+        |mensaje	 | String      |                  | 
+        +------------+-------------+------------------+
+        |disabled	 | Boolean     |                  |
+        +------------+-------------+------------------+	
+
+5.	Renderice la siguiente plantilla si la propiedad disabled es verdadera.
+
+    <div>
+        <button @click=${()=> (this.show = !this.show)}>
+        Pulse ${this.show ? "hide" : "show"} mensaje
+        </button>
+
+        <div>
+            ${this.show ? html` El mensaje es: ${this.mensaje}` : ""}
+        </div>
+
+        <div>
+            ${getMensaje(this.mensaje, this.show)}
+        </div>
+    </div>
+
+6.	Renderice la siguiente plantilla si la propiedad disabled es falsa: 
+     <div> Pues la nada </div>
+
+7.	Registre este nuevo elemento de nombre 'bb-condicional'.
+
+8.	Pruebe el nuevo elemento lit en el index.html.

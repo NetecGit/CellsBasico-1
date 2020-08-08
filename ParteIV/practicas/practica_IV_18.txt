@@ -1,0 +1,21 @@
+Práctica IV.18 Accesores & Mutadores
+
+Realice las siguientes instrucciones:
+
+1.	Utilice LitElement & Lit-html.
+
+2.	Construya una página web en la cual aparezcan tres campos de entrada 
+    y un botón similar a la siguiente imagen:
+
+        Nota: 
+        
+        La imagen la puede encontrar en la plataforma BBVA de aprendizaje,
+        o localmente en el archivo practica_IV_18.png
+
+3.	Cuando pulse el botón el cursor deberá aparecer en la primera entrada, 
+    al pulsar nuevamente el botón deberá aparecer en la segunda entrada, 
+    cuando se pulse por tercera vez deberá aparecer en la tercera entrada, 
+    al pulsarlo una vez más deberá aparecer nuevamente en la primera entrada 
+    y así para sucesivamente.
+
+

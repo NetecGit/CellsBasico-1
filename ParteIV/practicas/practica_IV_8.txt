@@ -1,0 +1,44 @@
+Práctica IV.8 Más Propiedades
+
+1.	En el mismo proyecto de la práctica anterior agregue un nuevo archivo fuente de 
+    nombre maspropiedades.js
+
+2.	Importe litElement y html del módulo lit-element.
+
+3.	Cree una subclase de LitElement de nombre MasPropiedades.
+
+4.	Agregue dos propiedades según la tabla e inicialice en el constructor.
+
+    +------------+-----------------+----------------------------------------------------------+
+    | Nombre	 |       Tipo	   |   Valor                                                  |
+    +------------+-----------------+----------------------------------------------------------+
+    |  autor	 |       Objet	   |{                                                         |
+    |            |                 |   nombre: "William Shakespeare", nacionalidad : "Inglesa"|
+    |            |                 |}                                                         |
+    +------------+-----------------+----------------------------------------------------------+
+    | libros	 |   Array	       | [                                                        |
+    |            |                 |    {titulo:"Otelo", paginas:"208"},                      |
+    |            |                 |    {titulo:"Romeo y Julieta", paginas:"488"},            |
+    |            |                 |    {titulo:"Hamlet", paginas:"720"}                      |
+    |            |                 | ]                                                        |
+    +------------+-----------------+----------------------------------------------------------+
+
+5.	Renderice la siguiente plantilla: html`<bb-perfil .author=${this.autor} .books=${this.libros}> </bb-perfil>`
+
+6.	Observe como nuevamente en esta práctica aún no ha registrado este elemento y construido el elemento bb-perfil.
+
+7.	Registre el nuevo elemento asigne el nombre "mas-propiedades".
+
+8.	Cree una nueva subclase de LitElement de nombre Perfil.
+
+9.	Agregue las mismas propiedades que la subclase MasPropiedades.
+
+10.	Renderice ls siguiente plantilla.
+    <div>${this.autor.nombre}</div>
+    <div> ${this.books.map(libro => html`<li>${libro.titulo + " " libro.paginas}</li>`)}</div>
+
+11.	Registre el nuevo elemento asigne el nombre de "bb-perfil".
+
+12.	Agregue el nuevo elemento más-propiedades en el index.html de la página.
+
+13.	Pruebe y visualice los elementos de la página.

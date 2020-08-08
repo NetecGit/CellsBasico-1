@@ -1,0 +1,15 @@
+Práctica I.2 Prototipos, Herencia y Composición
+
+1. Escriba en JavaScript o pseudocódigo una función constructora que tenga las propiedades 
+   de id, nombre, balance y número de operaciones.
+
+2. Agregue a la función constructora tres funciones más: depósito(monto), retiro(monto) y
+   toString().
+
+3. Cree tres instancias de la función constructora.
+
+4. Cree una instancia más con un balance inicial de 2000. Retire 333 y deposite 444.
+
+5. Verifique y despliegue el balance de la cuenta del punto 4.
+
+6. Verifique y despliegue el total de operaciones realizadas de la cuenta del punto 4.
